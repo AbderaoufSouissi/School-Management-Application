@@ -1,0 +1,105 @@
+###############################
+#        BACKEND (Spring Boot)
+###############################
+
+# Maven
+backend/target/
+backend/pom.xml.tag
+backend/pom.xml.releaseBackup
+backend/pom.xml.versionsBackup
+backend/pom.xml.next
+backend/release.properties
+backend/dependency-reduced-pom.xml
+backend/buildNumber.properties
+backend/.mvn/timing.properties
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle (if used)
+backend/.gradle/
+backend/build/
+backend/!gradle/wrapper/gradle-wrapper.jar
+backend/!gradle/wrapper/gradle-wrapper.properties
+
+# Spring Boot output
+backend/*.jar
+backend/*.war
+
+# Logs
+backend/*.log
+backend/logs/
+backend/*.out
+
+# JVM crash logs
+backend/hs_err_pid*
+backend/replay_pid*
+
+# Environment / credentials
+backend/*.env
+backend/.env*
+backend/application-local.yml
+backend/application-local.properties
+backend/secrets/
+backend/*.key
+backend/*.pem
+
+# IDE-specific
+backend/.idea/
+backend/*.iml
+backend/out/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/bin/
+
+#################################
+#        FRONTEND (Angular)
+#################################
+
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.npm/
+frontend/.cache/
+
+# Angular build artifacts
+frontend/.output/
+frontend/.parcel-cache/
+
+# Local environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# IDE
+frontend/.idea/
+frontend/.vscode/
+frontend/*.iml
+
+#################################
+#        ROOT / GENERAL
+#################################
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# Temp
+*.tmp
+*.temp
+
+# Docker overrides (optional)
+docker-compose.override.yml
+*.local.yml
+
+# Misc
+*.log
